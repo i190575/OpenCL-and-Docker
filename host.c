@@ -114,8 +114,8 @@ int main()
         total_sum += b[i];
         printf("Iteration %d: %d\n", i, b[i]);
     }
-    printf("Total sum: %d\n", total_sum);
-
+    printf("working: Total sum: %d\n", total_sum);
+    
     // Clean up
     if (a_mem)
         clReleaseMemObject(a_mem);
